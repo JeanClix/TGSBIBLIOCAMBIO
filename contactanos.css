@@ -1,0 +1,90 @@
+h1:first-of-type { 
+    margin-top: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 25, 25);
+    font-size: 40px;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+form {
+    background-color: rgb(206, 26, 26);
+    padding: 20px;
+    border-radius: 30px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    width: 30%; 
+}
+
+.email-label {
+    width: 48%; 
+    margin-right: 30px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 40%; 
+    height: 30px;
+}
+
+input[type="email"] {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 30px;
+}
+
+
+
+textarea {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 98%;
+    height: 180px;
+}
+
+button {
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5px 15px;
+    width: 20%;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
